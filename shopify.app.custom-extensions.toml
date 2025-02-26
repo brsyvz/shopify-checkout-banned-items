@@ -1,0 +1,24 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = ""
+client_id = ""
+application_url = ""
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,write_script_tags,write_discounts,read_customers"
+
+[auth]
+redirect_urls = [
+  "https://.com/auth/callback",
+  "https://.com/auth/shopify/callback",
+  "https://.com/api/auth/callback",
+  "https://.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
