@@ -1,5 +1,7 @@
 
-# Enable Shopify Functions
+# Shopify checkout banned products
+
+-----
 
 # Shopify App Template - Remix
 
